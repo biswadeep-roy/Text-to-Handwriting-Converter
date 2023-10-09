@@ -1,40 +1,25 @@
-# AutoMessenger
-This program is used to automate messages on social sites.
+## Text to Handwriting Converter
 
-AutoMessageSender is a Python script that allows you to automate sending messages on your computer. It uses the pyautogui library to simulate typing and sending messages. This can be handy for various purposes, such as sending repetitive messages or testing chat applications.
+Convert plain text into handwritten-style images using this simple Python script.
 
-# Prerequisites
-Before you can use AutoMessageSender, make sure you have the following prerequisites installed:
+# Table of Contents
 
-# Python 3.x
-pyautogui library: You can install it using pip with the command pip install pyautogui.
-# Usage
-Clone or download this repository to your local machine.
+Overview
+Getting Started
+Usage
+Customization
+Font
+Examples
+Contributing
+License
 
-Open a terminal or command prompt and navigate to the directory where the script is located.
+# Overview
 
-Run the script by executing the following command:
+This Python script allows you to convert plain text into a sequence of handwritten-style images. Each character in the input text is represented by a corresponding image in the "font" folder. The script combines these images to create a visual representation of the text, emulating a handwritten appearance.
 
-`python auto_message_sender.py
-`
+# Getting Started
 
-Follow the on-screen prompts to configure the message, the number of times to send it, and the delay between messages.
+Clone the repository to your local machine:
 
-The script will start sending the specified message automatically.
-
-To stop the script, you can press Ctrl+C in the terminal or command prompt where the script is running.
-
-# Configuration
-
-message: Enter the message you want to send.
-
-count: Specify the number of times you want to send the message. It should be a positive integer.
-
-delay: Set the delay (in seconds) between sending each message. You can use this to control the rate of message sending. For example, a delay of 0.5 seconds means a half-second pause between each message.
-
-# Troubleshooting
-If you encounter any issues while using AutoMessageSender, make sure you have the necessary dependencies installed and that your system allows the script to access the keyboard and mouse inputs.
-
-# Disclaimer
-
-This script is intended for educational and testing purposes. Please use it responsibly and considerate of the intended purpose of the applications or platforms you are using it with. Automated messaging may violate the terms of service of certain applications or websites.
+``git clone https://github.com/yourusername/text-to-handwriting-converter.git
+``
