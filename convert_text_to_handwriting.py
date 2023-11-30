@@ -14,7 +14,7 @@ except FileNotFoundError:
     print("Could not find the file:", input_filename)
     sys.exit(1)
 
-BG = Image.open("myfont/bg.png")
+BG = Image.open("font/bg.png")
 sheet_width = BG.width
 gap, ht = 0, 0
 
