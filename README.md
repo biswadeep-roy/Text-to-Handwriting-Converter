@@ -2,6 +2,10 @@
 
 Convert plain text into handwritten-style images using this simple Python script.
 
+![image](https://github.com/biswadeep-roy/Text-to-Handwriting-Converter/assets/74821633/325628f4-07cc-4a1e-b3ad-65f868ab5514)
+
+
+
 # Table of Contents
 
 Overview
